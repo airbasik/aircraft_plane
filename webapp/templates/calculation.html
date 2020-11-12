@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title> AirCraft </title>
+    </head>
+    <body>
+        <h1>
+            <form action="" method="POST">
+                {{ form.hidden_tag() }}
+                <p>
+                    {{ form.cruising_speed.label }}<br>
+                    {{ form.cruising_speed }}
+                </p>
+                <p>
+                    {{ form.submit }}
+                </p>
+            </form>
+        </h1>
+    </body>
+</html>
