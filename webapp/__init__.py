@@ -13,7 +13,7 @@ def create_app():
         return render_template('index.html', text=text)
 
 
-    @app.route("/basic-parameters")
+    @app.route("/start")
     def basic_parameters():
         basic_parameters_form = BasicParametersForm()
         return render_template('calculation.html', form=basic_parameters_form)
